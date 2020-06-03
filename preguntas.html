@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cuestionaro virtual</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+                <h2 class="d-flex justify-content-center mb-3">Bienvenido al Cuestionario Virtual</h2>
+
+                <div id="tituloPregunta" class="form-group font-weight-bold">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="alternativas" value="1" checked><span
+                        id="opcion1"></span>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="alternativas" value="2"><span
+                        id="opcion2"></span>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="alternativas" value="3"><span
+                        id="opcion3"></span>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="alternativas" value="4"><span
+                        id="opcion4"></span>
+                </div>
+
+
+                <button id="btnAvanzar" class="btn btn-primary mt-4">Avanzar</button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/examen.js"></script>
+    <script src="js/preguntas.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cuestionaro virtual</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+    
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col">
+                <h2 class="d-flex justify-content-center">Cuestionario Virtual</h2>
+
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp"
+                            placeholder="Ingresa nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="edad">Edad</label>
+                        <input type="text" class="form-control" id="edad" aria-describedby="edadHelp"
+                            placeholder="Ingresa edad">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Ingresa email">
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <button type="submit" class="btn btn-primary" id="btnEmpezar">Empezar</button>
+                        <button type="submit" class="btn btn-success" id="btnResultado">Resultados</button>         
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <div id="muestra-resultados" hidden>
+                    <table id="listaResultados" class="table">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Edad</th>
+                                <th>Correo</th>
+                                <th>Puntaje</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/examen.js"></script>
+    <script src="js/inicio.js"></script>
+    
+</body>
+
+</html>
