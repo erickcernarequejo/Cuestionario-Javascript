@@ -25,7 +25,7 @@
     },
     {
         "respuesta": 4,
-        "tituloPregunta": "¿Pregunta 3?",
+        "tituloPregunta": "¿Pregunta 3 ?",
         "opciones": [
             {
                 "alternativa1": "Alternativa incorrecta",
