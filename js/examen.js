@@ -10,7 +10,7 @@ class Examen {
 
         this.guardarExamenLocalStorage(infoPersona);
         
-        location.href = "https://appservice01erickcerna.azurewebsites.net/preguntas.html";
+        location.href = "preguntas.html";
     }
     
     guardarExamenLocalStorage(infoPersona){

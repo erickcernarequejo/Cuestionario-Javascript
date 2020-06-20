@@ -9,6 +9,8 @@ function cargarEventos() {
     btnEmpezar.addEventListener('click', verificar);
 
     btnResultado.addEventListener('click', (e) => {examen.leerLocalStorage(e)});
+
+    console.log("hola");
 }
 
 function verificar(e) {
