@@ -12,7 +12,7 @@ let i = 0;
 let respuesta;
 
 function mostrar() {
-    fetch('preguntas.json')
+    fetch('js/preguntas.json')
         .then(response => {
             return response.json();
         })
