@@ -19,7 +19,7 @@ function mostrar() {
         .then(response => {
 
             if (i === response.length) {
-                location.href = "index.html";
+                location.href = "https://appservice01erickcerna.azurewebsites.net/index.html";
             }
             else {
                 document.getElementById('tituloPregunta').innerHTML = `${i+1}. ${response[i].tituloPregunta}`
