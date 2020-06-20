@@ -12,14 +12,14 @@ let i = 0;
 let respuesta;
 
 function mostrar() {
-    fetch('js/preguntas.json')
+    fetch('preguntas.json')
         .then(response => {
             return response.json();
         })
         .then(response => {
 
             if (i === response.length) {
-                location.href = "https://appservice01erickcerna.azurewebsites.net/index.html";
+                location.href = "index.html";
             }
             else {
                 document.getElementById('tituloPregunta').innerHTML = `${i+1}. ${response[i].tituloPregunta}`
